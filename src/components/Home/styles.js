@@ -39,3 +39,8 @@ export const TxtTitle = styled.Text`
     font-size: 40px;
     font-weight: bold;
 `;
+
+export const Container = styled.View`
+    margin-top: 32px;
+    margin-left: 20px;
+`;

@@ -4,10 +4,12 @@ import {TopBar,
         Avatar, 
         SearchBar,
         Title,
-        TxtTitle
+        TxtTitle,
+        Container
     } from './styles';
 import { AntDesign } from '@expo/vector-icons';
 import {StyleSheet} from 'react-native';
+import Destinations from '../Destinations/index';
 
 
 export default function Home(){
@@ -24,6 +26,10 @@ export default function Home(){
         </TopBar>
         <Title>
             <TxtTitle>Novos destinos</TxtTitle>
+
+            <Container>
+                <Destinations />
+            </Container>
         </Title>
         </>
     )
