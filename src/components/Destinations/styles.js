@@ -16,6 +16,7 @@ export const CardImg = styled.Image`
 
 export const Location = styled.View`
     flex-direction: row;
+    position: absolute; /**mudar essa linhas */
 `; 
 
 export const Place = styled.Text`
