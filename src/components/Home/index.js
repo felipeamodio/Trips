@@ -12,6 +12,7 @@ import {StyleSheet} from 'react-native';
 import Destinations from '../Destinations/index';
 
 
+
 export default function Home(){
     return(
     <>
@@ -31,6 +32,7 @@ export default function Home(){
                 <Destinations />
             </Container>
         </Title>
+        
         </>
     )
 }
