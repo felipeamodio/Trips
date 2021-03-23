@@ -10,6 +10,7 @@ export const Card = styled.TouchableOpacity``;
 
 export const CardView = styled.View`
     position: absolute;
+    box-shadow: 3px 7px 7px #4F4F4F;
 `;
 
 export const CardImg = styled.Image`
@@ -33,6 +34,7 @@ export const Place = styled.Text`
 export const Desc = styled.View`
     top: 232px;
     left: 31px;
+    box-shadow: 3px 2px 3px #4F4F4F;
 `;
 
 export const PlaceTitle = styled.Text`
@@ -52,6 +54,7 @@ export const Infos = styled.View`
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 3px 2px 3px #4F4F4F;
 `;
 
 export const Price = styled.Text`

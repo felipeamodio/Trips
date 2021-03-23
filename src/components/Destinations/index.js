@@ -22,7 +22,6 @@ import { AntDesign } from '@expo/vector-icons';
 
 
 export default function Destinations(){
- 
 
     return(
     <>
@@ -84,7 +83,7 @@ export default function Destinations(){
             <PlaceTitle>Coliseu</PlaceTitle>
             <StarsView>
             <Stars 
-                default={5}
+                default={4}
                 count={6}
                 starSize={19}
                 half={true}
@@ -96,32 +95,32 @@ export default function Destinations(){
         </Desc>
 
         <Infos>
-            <Price>R$12.000,00</Price>
+            <Price>R$16.500,00</Price>
             <Hearts>
             <AntDesign name="heart" size={24} color="#FFFFFF" />
-            <Likes>346</Likes>
+            <Likes>218</Likes>
             </Hearts>
         </Infos>
         </CardContainer>
 
 
-        {/** MALÁSIA */}
+        {/** COLOMBIA */}
 
         <CardContainer style={{marginTop: 340}}>
         <Card>
         <CardView>
         <CardImg
-                source={require('../../img/grecia.jpg')}
+                source={require('../../img/colombia.jpg')}
             ></CardImg>
         </CardView>
         </Card>
         <Location>
         <Ionicons style={{right: 7, top: -6}} name="ios-location" size={34} color="#FFFFFF" />
-            <Place style={{left: 4}}>Malásia</Place>
+            <Place style={{left: 4}}>Colombia</Place>
         </Location>
 
         <Desc>
-            <PlaceTitle>Ilha Perhentian</PlaceTitle>
+            <PlaceTitle style={{fontSize: 28}}>Baia do Carangueijo</PlaceTitle>
             <StarsView>
             <Stars 
                 default={5}
@@ -136,10 +135,10 @@ export default function Destinations(){
         </Desc>
 
         <Infos>
-            <Price>R$12.000,00</Price>
+            <Price>R$5.000,00</Price>
             <Hearts>
             <AntDesign name="heart" size={24} color="#FFFFFF" />
-            <Likes>346</Likes>
+            <Likes>415</Likes>
             </Hearts>
         </Infos>
         </CardContainer>
@@ -163,7 +162,7 @@ export default function Destinations(){
             <PlaceTitle>Grand Canyon</PlaceTitle>
             <StarsView>
             <Stars 
-                default={5}
+                default={4}
                 count={6}
                 starSize={19}
                 half={true}
@@ -175,10 +174,10 @@ export default function Destinations(){
         </Desc>
 
         <Infos>
-            <Price>R$12.000,00</Price>
+            <Price>R$10.899,00</Price>
             <Hearts>
             <AntDesign name="heart" size={24} color="#FFFFFF" />
-            <Likes>346</Likes>
+            <Likes>568</Likes>
             </Hearts>
         </Infos>
         </CardContainer>
@@ -202,6 +201,85 @@ export default function Destinations(){
             <PlaceTitle>Pirâmedes de Gizé</PlaceTitle>
             <StarsView>
             <Stars 
+                default={4}
+                count={6}
+                starSize={19}
+                half={true}
+                fullStar={ <FontAwesome name="star" size={19} style={styles.stars} /> }
+                halfStar={ <FontAwesome name="star-half-empty" size={19} style={styles.stars} /> }
+                emptyStar={ <FontAwesome name="star-o" size={19} style={styles.stars} /> }
+            />
+            </StarsView>
+        </Desc>
+
+        <Infos>
+            <Price>R$9.300,00</Price>
+            <Hearts>
+            <AntDesign name="heart" size={24} color="#FFFFFF" />
+            <Likes>379</Likes>
+            </Hearts>
+        </Infos>
+        </CardContainer>
+        
+
+        {/** AFRICA */}
+
+        <CardContainer style={{marginTop: 340}}>
+        <Card>
+        <CardView>
+        <CardImg
+                source={require('../../img/africa.jpg')}
+            ></CardImg>
+        </CardView>
+        </Card>
+        <Location>
+        <Ionicons style={{right: 7, top: -6}} name="ios-location" size={34} color="#FFFFFF" />
+            <Place style={{left: 4}}>África do Sul</Place>
+        </Location>
+
+        <Desc>
+            <PlaceTitle>África do Sul</PlaceTitle>
+            <StarsView>
+            <Stars 
+                default={6}
+                count={6}
+                starSize={19}
+                half={true}
+                fullStar={ <FontAwesome name="star" size={19} style={styles.stars} /> }
+                halfStar={ <FontAwesome name="star-half-empty" size={19} style={styles.stars} /> }
+                emptyStar={ <FontAwesome name="star-o" size={19} style={styles.stars} /> }
+            />
+            </StarsView>
+        </Desc>
+
+        <Infos>
+            <Price>R$23.600,00</Price>
+            <Hearts>
+            <AntDesign name="heart" size={24} color="#FFFFFF" />
+            <Likes>861</Likes>
+            </Hearts>
+        </Infos>
+        </CardContainer>
+
+        {/** DISNEY */}
+
+        <CardContainer style={{marginTop: 340}}>
+        <Card>
+        <CardView>
+        <CardImg
+                source={require('../../img/disney.jpg')}
+            ></CardImg>
+        </CardView>
+        </Card>
+        <Location>
+        <Ionicons style={{right: 7, top: -6}} name="ios-location" size={34} color="#FFFFFF" />
+            <Place style={{left: 4}}>Disneylandia</Place>
+        </Location>
+
+        <Desc>
+            <PlaceTitle>Castelo da Disney</PlaceTitle>
+            <StarsView>
+            <Stars 
                 default={5}
                 count={6}
                 starSize={19}
@@ -214,10 +292,10 @@ export default function Destinations(){
         </Desc>
 
         <Infos>
-            <Price>R$12.000,00</Price>
+            <Price>R$15.000,00</Price>
             <Hearts>
             <AntDesign name="heart" size={24} color="#FFFFFF" />
-            <Likes>346</Likes>
+            <Likes>438</Likes>
             </Hearts>
         </Infos>
         </CardContainer>

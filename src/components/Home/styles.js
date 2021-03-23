@@ -38,6 +38,7 @@ export const Title = styled.ScrollView`
 export const TxtTitle = styled.Text`
     font-size: 40px;
     font-weight: bold;
+    box-shadow: 1px 2px 1px #4F4F4F;
 `;
 
 export const Container = styled.View`

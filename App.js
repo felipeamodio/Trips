@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Home from './src/components/Home/index';
+import 'react-native-gesture-handler';
 
 
 export default function App() {
