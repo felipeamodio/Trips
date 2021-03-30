@@ -17,24 +17,28 @@ import {CardContainer,
 import { Ionicons } from '@expo/vector-icons';
 import Stars from 'react-native-stars';
 import {StyleSheet, ScrollView} from 'react-native';
+import Button from '../Button/index';
 import { FontAwesome } from '@expo/vector-icons';
 import { AntDesign } from '@expo/vector-icons';
+import {useNavigation} from '@react-navigation/native';
 
 
 export default function Destinations(){
+
+    const navigation = useNavigation();
 
     return(
     <>
      {/** LONDRES */}
      <ScrollView showsVerticalScrollIndicator={false}>
         <CardContainer>
-            <Card>
+            <Button onClick={() => navigation.navigate('London')}>
             <CardView>
             <CardImg
                     source={require('../../img/londres.jpg')}
                 ></CardImg>
             </CardView>
-            </Card>
+            </Button>
             <Location>
             <Ionicons style={{right: 7, top: -6}} name="ios-location" size={34} color="#FFFFFF" />
                 <Place style={{left: 4}}>Londres</Place>

@@ -4,6 +4,7 @@ import Home from './src/components/Home/index';
 import 'react-native-gesture-handler';
 
 
+
 export default function App() {
   return (
     <View style={styles.container}>
@@ -15,6 +16,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#F0FFFF',
   },
 });

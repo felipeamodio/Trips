@@ -10,6 +10,7 @@ import {TopBar,
 import { AntDesign } from '@expo/vector-icons';
 import {StyleSheet} from 'react-native';
 import Destinations from '../Destinations/index';
+import Routes from '../../routes';
 
 
 
@@ -27,8 +28,10 @@ export default function Home(){
         </TopBar>
         <Title>
             <TxtTitle>Novos destinos</TxtTitle>
+        
 
             <Container>
+                <Routes />
                 <Destinations />
             </Container>
         </Title>
